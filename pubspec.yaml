@@ -70,7 +70,7 @@ dependencies:
   jiffy: ^6.3.1
   flutter_staggered_grid_view: ^0.7.0
   g_recaptcha_v3: ^0.0.6
-  intl: ^0.19.0
+  intl: ^0.20.2
   universal_html: ^2.2.4
   fastor_app_ui_widget: ^1.0.223
   table_calendar_jalali: ^1.0.1
