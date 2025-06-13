@@ -27,7 +27,7 @@ import 'package:my_ios_app/useCase/app/set_culture_use_case.dart';
 import 'package:my_ios_app/utils.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:url_launcher/url_launcher.dart';
+// import 'package:url_launcher/url_launcher.dart';
 import '../../../../data/body/user/information/InformationBodey.dart';
 import 'ChildsProfileUi.dart';
 import 'package:flutter/services.dart';
@@ -215,11 +215,11 @@ class _ProfileUiState extends State<ProfileUi> {
         path: phoneNumber,
       );
 
-      if (await canLaunch(launchUri.toString())) {
-        await launch(launchUri.toString());
-      } else {
-        throw 'Could not launch $launchUri';
-      }
+      // if (await canLaunch(launchUri.toString())) {
+      //   await launch(launchUri.toString());
+      // } else {
+      //   throw 'Could not launch $launchUri';
+      // }
     }
 
     void resetApp() {

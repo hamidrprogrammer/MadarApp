@@ -24,7 +24,6 @@ import 'package:my_ios_app/useCase/subscribe/DiscountCodeUseCase.dart';
 import 'package:my_ios_app/useCase/subscribe/GetAllSubscriptionsUseCase.dart';
 import 'package:my_ios_app/useCase/subscribe/GetRemainingDayUseCase.dart';
 // import 'package:uni_links/uni_links.dart';
-import 'package:url_launcher/url_launcher.dart';
 
 class SubscriptionViewModel extends BaseViewModel with WidgetsBindingObserver {
   AppState uiState = AppState.idle;
@@ -231,10 +230,10 @@ class SubscriptionViewModel extends BaseViewModel with WidgetsBindingObserver {
   }
 
   Future<void> _launchUrl(String url) async {
-    if (!await launchUrl(Uri.parse(url),
-        mode: LaunchMode.externalApplication)) {
-      throw Exception('Could not launch $url');
-    }
+    // if (!await launchUrl(Uri.parse(url),
+    //     mode: LaunchMode.externalApplication)) {
+    //   throw Exception('Could not launch $url');
+    // }
   }
 
   String getPaymentResultBuStatusCode(int? statusCode) {

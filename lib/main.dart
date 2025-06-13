@@ -90,7 +90,6 @@ class MyApp extends StatelessWidget {
             theme: AppTheme.myTheme(),
             locale: AppDefaultLocale.getAppLocale,
             supportedLocales: AppDefaultLocale.supportedLocale,
-            localizationsDelegates: AppDefaultLocale.localizationDelegate,
             localeResolutionCallback: (_, __) => AppDefaultLocale.getAppLocale,
             builder: rootTransitionBuilder,
             scaffoldMessengerKey:

@@ -15,7 +15,7 @@ import 'package:my_ios_app/presentation/viewModel/baseViewModel.dart';
 import 'package:my_ios_app/useCase/workBook/ReportCardUseCase.dart';
 import 'package:my_ios_app/useCase/workBook/general_reportCard_useCase.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:url_launcher/url_launcher.dart';
+// import 'package:url_launcher/url_launcher.dart';
 
 class ReportCardViewModel extends BaseViewModel {
   final key = GlobalKey();
@@ -211,10 +211,10 @@ class ReportCardViewModel extends BaseViewModel {
   }
 
   Future<void> _launchUrl(String url) async {
-    if (!await launchUrl(Uri.parse(url),
-        mode: LaunchMode.externalApplication)) {
-      throw Exception('Could not launch $url');
-    }
+    // if (!await launchUrl(Uri.parse(url),
+    //     mode: LaunchMode.externalApplication)) {
+    //   throw Exception('Could not launch $url');
+    // }
   }
 
   onSolutionItemClick(WorkBookDetailReviews item) {

@@ -19,7 +19,7 @@ import 'package:my_ios_app/useCase/child/AdddataUseVase.dart';
 import 'package:shamsi_date/shamsi_date.dart';
 import 'package:jalali_table_calendar_plus/jalali_table_calendar_plus.dart';
 import 'package:my_ios_app/presentation/state/NetworkExtensions.dart';
-import 'package:url_launcher/url_launcher.dart';
+// import 'package:url_launcher/url_launcher.dart';
 
 class CalendarScreen extends StatefulWidget {
   const CalendarScreen({Key? key}) : super(key: key);
@@ -146,11 +146,11 @@ class _CalendarScreenState extends State<CalendarScreen> {
       ],
     };
     Future<void> launchURL(String url) async {
-      if (await canLaunch(url)) {
-        await launch(url);
-      } else {
-        throw 'Could not launch $url';
-      }
+      // if (await canLaunch(url)) {
+      //   await launch(url);
+      // } else {
+      //   throw 'Could not launch $url';
+      // }
     }
 
     return CubitProvider(

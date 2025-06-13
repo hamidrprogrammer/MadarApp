@@ -5,7 +5,6 @@ import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:my_ios_app/presentation/viewModel/baseViewModel.dart';
 import 'package:my_ios_app/useCase/file/DownloadFileUseCase.dart';
 import 'package:permission_handler/permission_handler.dart';
-import 'package:url_launcher/url_launcher.dart';
 
 class DownloadFileViewModel extends BaseViewModel {
   DownloadFileViewModel(super.initialState);
@@ -68,8 +67,6 @@ class DownloadFileViewModel extends BaseViewModel {
   // }
 
   Future<void> _launchUrl(Uri uri) async {
-    if (!await launchUrl(uri)) {
-      throw Exception('Could not launch $uri');
-    }
+    
   }
 }

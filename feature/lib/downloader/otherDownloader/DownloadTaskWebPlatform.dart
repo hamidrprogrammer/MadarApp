@@ -4,7 +4,7 @@ import 'dart:html' as html;
 import 'package:feature/downloader/DownloadTaskModel.dart';
 import 'package:feature/downloader/DownloadTaskRepository.dart';
 import 'package:feature/downloader/DownloadTaskStrategyRepository.dart';
-import 'package:url_launcher/url_launcher.dart';
+// import 'package:url_launcher/url_launcher.dart';
 
 
 void openUrlShared(DownloadTaskModel model){
@@ -33,8 +33,8 @@ class DownloadTaskWebPlatform extends DownloadTaskRepository {
 
 
   Future<void> _launchUrl() async {
-    if (!await launchUrl(Uri.parse(model.link))) {
-      throw Exception('Could not launch ${model.link}');
-    }
+    // if (!await launchUrl(Uri.parse(model.link))) {
+    //   throw Exception('Could not launch ${model.link}');
+    // }
   }
 }

@@ -18,7 +18,7 @@ import 'package:my_ios_app/presentation/viewModel/baseViewModel.dart';
 import 'package:my_ios_app/presentation/viewModel/home/HomeViewModel.dart';
 import 'package:my_ios_app/presentation/viewModel/main/MainViewModel.dart';
 import 'package:my_ios_app/useCase/home/PackagesViewModel.dart';
-import 'package:url_launcher/url_launcher.dart';
+// import 'package:url_launcher/url_launcher.dart';
 import 'package:my_ios_app/useCase/subscribe/GetRemainingDayUseCase.dart';
 
 class HomeUI extends StatelessWidget {
@@ -139,7 +139,7 @@ class HomeUI extends StatelessWidget {
 }
 
 Future<void> _launchUrl(String url) async {
-  if (!await launchUrl(Uri.parse(url), mode: LaunchMode.externalApplication)) {
-    throw Exception('Could not launch $url');
-  }
+  // if (!await launchUrl(Uri.parse(url), mode: LaunchMode.externalApplication)) {
+  //   throw Exception('Could not launch $url');
+  // }
 }

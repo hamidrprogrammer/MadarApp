@@ -1,6 +1,6 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-import 'package:url_launcher/url_launcher.dart';
+// import 'package:url_launcher/url_launcher.dart';
 
 class TextWithLink extends StatelessWidget {
   final String text;
@@ -30,8 +30,8 @@ class TextWithLink extends StatelessWidget {
   }
 
   Future<void> _launchUrl(Uri uri) async {
-    if (!await launchUrl(uri, mode: LaunchMode.externalApplication)) {
-      throw Exception('Could not launch $uri');
-    }
+    // if (!await launchUrl(uri, mode: LaunchMode.externalApplication)) {
+    //   throw Exception('Could not launch $uri');
+    // }
   }
 }

@@ -17,7 +17,7 @@ import 'package:my_ios_app/presentation/ui/recaptcha/recaptcha.dart';
 import 'package:my_ios_app/presentation/ui/register/text_with_link.dart';
 import 'package:my_ios_app/presentation/viewModel/baseViewModel.dart';
 import 'package:my_ios_app/presentation/viewModel/user/SignUpViewModel.dart';
-import 'package:url_launcher/url_launcher.dart';
+// import 'package:url_launcher/url_launcher.dart';
 
 import '../../viewModel/user/InformationViewModel.dart';
 enum EducationStatus {
@@ -609,9 +609,9 @@ class _InformationUiState extends State<InformationUi> {
   }
 
   Future<void> _launchUrl(Uri uri) async {
-    if (!await launchUrl(uri, mode: LaunchMode.externalApplication)) {
-      throw Exception('Could not launch $uri');
-    }
+    // if (!await launchUrl(uri, mode: LaunchMode.externalApplication)) {
+    //   throw Exception('Could not launch $uri');
+    // }
   }
 }
 

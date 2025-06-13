@@ -3,7 +3,6 @@ import 'dart:typed_data';
 
 import 'package:core/imagePicker/ImageFileModel.dart';
 import 'package:core/imagePicker/MyImagePicker.dart';
-import 'package:fastor_app_ui_widget/resource/toolsFastor/fix_bugs_web/html_fake.dart';
 import 'package:my_ios_app/data/body/user/profile/FileDataBody.dart';
 import 'package:my_ios_app/data/body/user/profile/UploadUserAvatarBody.dart';
 import 'package:my_ios_app/data/serializer/user/GetUserProfileResponse.dart';

@@ -5,7 +5,7 @@ import 'package:my_ios_app/presentation/state/app_state.dart';
 import 'package:my_ios_app/presentation/ui/main/CubitProvider.dart';
 import 'package:my_ios_app/presentation/ui/main/UiExtension.dart';
 import 'package:my_ios_app/presentation/viewModel/update/UpdateViewModel.dart';
-import 'package:url_launcher/url_launcher.dart';
+// import 'package:url_launcher/url_launcher.dart';
 
 class UpdateDialog extends StatelessWidget {
   const UpdateDialog({Key? key, required this.link}) : super(key: key);
@@ -52,6 +52,6 @@ class UpdateDialog extends StatelessWidget {
   }
 
   Future<bool> _launchUrl(String link) async {
-    return launchUrl(Uri.parse(link), mode: LaunchMode.externalApplication);
+    return false;
   }
 }
