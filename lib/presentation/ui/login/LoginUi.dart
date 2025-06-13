@@ -19,7 +19,6 @@ import 'package:my_ios_app/presentation/ui/main/TextFormFieldHelper.dart';
 import 'package:my_ios_app/presentation/ui/main/UiExtension.dart';
 import 'package:my_ios_app/presentation/viewModel/user/LoginViewModel.dart';
 import 'package:my_ios_app/utils.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 class LoginUi extends StatelessWidget {
   const LoginUi({Key? key}) : super(key: key);

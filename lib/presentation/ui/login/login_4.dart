@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'dart:ui';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:my_ios_app/utils.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 class Login4 extends StatelessWidget {
   @override
@@ -41,8 +40,8 @@ class Login4 extends StatelessWidget {
                         padding: EdgeInsets.fromLTRB(0, 11, 33.2, 10),
                         child: Text(
                           'ورود به حساب کاربری',
-                          style: GoogleFonts.getFont(
-                            'Roboto Condensed',
+                          style: TextStyle(
+                            
                             fontWeight: FontWeight.w600,
                             fontSize: 16,
                             height: 1.8,
@@ -62,8 +61,7 @@ class Login4 extends StatelessWidget {
                           margin: EdgeInsets.fromLTRB(0, 0, 0, 6),
                           child: Text(
                             'نام کاربری خود را وارد کنید.',
-                            style: GoogleFonts.getFont(
-                              'Roboto Condensed',
+                            style: TextStyle(
                               fontWeight: FontWeight.w400,
                               fontSize: 14,
                               height: 1.1,
@@ -82,8 +80,7 @@ class Login4 extends StatelessWidget {
                               padding: EdgeInsets.fromLTRB(8, 12, 8, 12),
                               child: Text(
                                 'ایمیل یا شماره موبایل',
-                                style: GoogleFonts.getFont(
-                                  'Roboto Condensed',
+                                style: TextStyle(
                                   fontWeight: FontWeight.w400,
                                   fontSize: 14,
                                   height: 1.7,
@@ -96,8 +93,7 @@ class Login4 extends StatelessWidget {
                         Text(
                           'از صفحه کلید انگلیسی استفاده کنید.',
                           textAlign: TextAlign.right,
-                          style: GoogleFonts.getFont(
-                            'Roboto Condensed',
+                          style: TextStyle(
                             fontWeight: FontWeight.w400,
                             fontSize: 12,
                             height: 2,
@@ -117,8 +113,7 @@ class Login4 extends StatelessWidget {
                           margin: EdgeInsets.fromLTRB(0, 0, 0, 6),
                           child: Text(
                             'رمز عبور',
-                            style: GoogleFonts.getFont(
-                              'Roboto Condensed',
+                            style: TextStyle(
                               fontWeight: FontWeight.w400,
                               fontSize: 14,
                               height: 1.1,
@@ -137,8 +132,7 @@ class Login4 extends StatelessWidget {
                               padding: EdgeInsets.fromLTRB(8, 12, 8, 12),
                               child: Text(
                                 'رمز عبور خود را وارد کنید',
-                                style: GoogleFonts.getFont(
-                                  'Roboto Condensed',
+                                style: TextStyle(
                                   fontWeight: FontWeight.w400,
                                   fontSize: 14,
                                   height: 1.7,
@@ -151,8 +145,7 @@ class Login4 extends StatelessWidget {
                         Text(
                           'از صفحه کلید انگلیسی استفاده کنید.',
                           textAlign: TextAlign.right,
-                          style: GoogleFonts.getFont(
-                            'Roboto Condensed',
+                          style: TextStyle(
                             fontWeight: FontWeight.w400,
                             fontSize: 12,
                             height: 2,
@@ -173,8 +166,7 @@ class Login4 extends StatelessWidget {
                         padding: EdgeInsets.fromLTRB(0, 12, 0, 12),
                         child: Text(
                           'تایید و ادامه',
-                          style: GoogleFonts.getFont(
-                            'Roboto Condensed',
+                          style: TextStyle(
                             fontWeight: FontWeight.w600,
                             fontSize: 16,
                             height: 1.5,
@@ -187,8 +179,7 @@ class Login4 extends StatelessWidget {
                   Container(
                     child: Text(
                       'ایجاد حساب کاربری جدید',
-                      style: GoogleFonts.getFont(
-                        'Roboto Condensed',
+                      style: TextStyle(
                         fontWeight: FontWeight.w600,
                         fontSize: 12,
                         height: 2,
@@ -206,8 +197,7 @@ class Login4 extends StatelessWidget {
                 height: 24,
                 child: Text(
                   'فراموشی رمز عبور',
-                  style: GoogleFonts.getFont(
-                    'Roboto Condensed',
+                  style: TextStyle(
                     fontWeight: FontWeight.w600,
                     fontSize: 12,
                     height: 2,
